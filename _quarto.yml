@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "Continuous Learner Forever"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/continuouslearnerforever
+      - icon: twitter
+        href: https://x.com/continuouslea
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    comments:
+      giscus:
+        repo: continuouslearnerforever/blog
+        category: Blog
+        theme: light
+        reactions-enabled: true
+
+    css: styles.css
+
+execute:
+  freeze: auto

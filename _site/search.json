@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Blog Listing",
+    "section": "",
+    "text": "Welcome to My Learning Journey!\n\n\nSharing the Ups, Downs, and Discoveries of a Lifelong Learner\n\n\n\nLearning Journey\n\n\nPersonal\n\n\n\nAnnouncing the launch of my blog, a space for sharing my experiences, insights, and struggles in the world of continuous learning.\n\n\n\n\n\nFeb 19, 2025\n\n\nContinuous Learner\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "Hi there! I’m a lifelong learner passionate about continuous growth and the joy of discovery. I believe learning should be fun, and I strive to embrace that philosophy in everything I do.\n\n\nThis blog chronicles my learning journey, inspired by Jeremy Howard’s advice during the FastAI “Practical Deep Learning” course (https://course.fast.ai/). While the course initially recommended Fastpages for quick blog creation, that project has since been deprecated. Quarto (https://quarto.org/) is now the recommended tool, and it’s what I’m using to build this blog.\n\n\nAnother key influence has been Radek Osmulski’s book, “Meta Learning: How To Learn Deep Learning And Thrive In The Digital World” (https://rosmulski.gumroad.com/l/learn_machine_learning/blog?ref=radekosmulski.com), recommended by Jeremy during the course. Radek, a FastAI alumnus (https://radekosmulski.com/), emphasizes the power of sharing knowledge.\n\n\nInspired by these recommendations, I’m documenting my experiences, step-by-step. My goal is to not only solidify my own understanding but also to create a resource that might be helpful for others on similar paths. By reflecting on my learning process and identifying areas for improvement, I hope to accelerate my growth and contribute to the broader learning community."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome to My Learning Journey!",
+    "section": "",
+    "text": "Hello and welcome to my blog! I’m incredibly excited to embark on this journey of sharing my learning experiences with you. This space is dedicated to documenting the ups and downs, the “aha!” moments, and even the struggles that come with being a lifelong learner.\n\nI firmly believe that learning is a process, not a destination. It’s about embracing challenges, making mistakes, and constantly seeking new knowledge. And while the struggles can be tough, they’re often where the most profound learning happens. The knowledge we gain through overcoming obstacles tends to stick with us, shaping our understanding in lasting ways.\nBut learning isn’t just about theory. It’s about doing. It’s about applying what we learn, experimenting, and building those crucial “muscle memories” through practice. That’s why I’ll also be sharing the exercises, projects, and hands-on activities that are helping me internalize new concepts.\nMy primary focus will be on [Data Science, AI, Machine Learning], but I’ll also touch on meta-learning strategies and other topics that spark my curiosity. I’ll do this regularly.\nMy hope is that by sharing my journey – the good, the bad, and the everything in between – I can not only solidify my own understanding but also perhaps offer something useful to others on similar paths. Maybe you’ll find a helpful tip, a new perspective, or simply the encouragement to keep learning, even when it gets tough.\nLearning is an adventure, and it’s even more fun when shared. I invite you to join me on this journey, share your own experiences, and let’s learn together!"
+  }
+]

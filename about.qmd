@@ -1,0 +1,31 @@
+---
+title: "About Me"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: X (formerly Twitter)
+      url: https://x.com/continuouslea
+    - icon: github
+      text: GitHub
+      url: https://github.com/continuouslearnerforever
+
+---
+
+:::{#hero-heading}
+
+<p>
+Hi there! I'm a lifelong learner passionate about continuous growth and the joy of discovery.  I believe learning should be fun, and I strive to embrace that philosophy in everything I do.
+</p>
+<p>
+This blog chronicles my learning journey, inspired by Jeremy Howard's advice during the FastAI "Practical Deep Learning" course (<a href="https://course.fast.ai/">https://course.fast.ai/</a>).  While the course initially recommended Fastpages for quick blog creation, that project has since been deprecated.  Quarto (<a href="https://quarto.org/">https://quarto.org/</a>) is now the recommended tool, and it's what I'm using to build this blog.
+</p>
+<p>
+Another key influence has been Radek Osmulski's book, "Meta Learning: How To Learn Deep Learning And Thrive In The Digital World" (<a href="https://rosmulski.gumroad.com/l/learn_machine_learning/blog?ref=radekosmulski.com">https://rosmulski.gumroad.com/l/learn_machine_learning/blog?ref=radekosmulski.com</a>), recommended by Jeremy during the course. Radek, a FastAI alumnus (<a href="https://radekosmulski.com/">https://radekosmulski.com/</a>), emphasizes the power of sharing knowledge.
+</p>
+<p>
+Inspired by these recommendations, I'm documenting my experiences, step-by-step.  My goal is to not only solidify my own understanding but also to create a resource that might be helpful for others on similar paths. By reflecting on my learning process and identifying areas for improvement, I hope to accelerate my growth and contribute to the broader learning community.
+</p>
+
+:::
