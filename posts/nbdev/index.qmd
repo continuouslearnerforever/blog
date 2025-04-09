@@ -1,0 +1,58 @@
+---
+title: "nbdev experience"
+subtitle: "How fastai's framework brings delight back to software creation using Jupyter Notebooks"
+description-meta: "A personal take on how nbdev simplifies the software development lifecycle, reducing friction and letting developers focus on solving problems."
+author: "Continuous Learner"
+date: "2025-04-09"
+categories: [Learning Journey, Software Development]
+---
+
+```{=html}
+<div class="welcome-post">
+
+It seems like every year, software development gets more powerful, but also... more complicated. We have amazing tools, but juggling Git workflows, testing frameworks, documentation generators, packaging, and CI/CD pipelines can feel like a constant battle, draining energy that could be spent on actually building things. This friction, this cognitive overhead, is a real drag. It's why the concept of Developer Experience (DX) has become so crucial – we need tools that help us, not hinder us.
+
+![The familiar feeling of wrestling with tooling instead of code.](frustrated_developer.png)
+*Caption: The familiar feeling of wrestling with tooling instead of code.*
+
+Recently, I stumbled upon a tool that genuinely felt like a breath of fresh air in this complex landscape: **[nbdev](https://nbdev.fast.ai/)** from the brilliant minds at fast.ai.
+
+Their tagline hits the nail on the head: **"Create delightful software with Jupyter Notebooks."** And after spending some time exploring it, I have to agree.
+
+Now, this isn't going to be a full `nbdev` tutorial. Jeremy Howard and Hamel Husain have already created a fantastic video walkthrough that does a much better job than I could:
+
+<a href="http://www.youtube.com/watch?v=l7zS8Ld4_iA" target="_blank" title="nbdev walkthrough"><img src="https://github.com/fastai/logos/raw/main/nbdev_walkthrough.png" style="border-radius: 10px; max-width: 100%; height: auto;" width="560" height="315" alt="nbdev video walkthrough thumbnail"/></a>
+
+And the official [nbdev tutorial documentation](https://nbdev.fast.ai/tutorials/tutorial.html) is clear and comprehensive.
+
+Instead, I want to share *why* `nbdev` clicked with me so quickly and why I found the experience, well, delightful. I followed Jeremy's tutorial, and you can see my basic exploration code here: [My nbdev demo repo](https://github.com/continuouslearnerforever/nbdev_demo).
+
+**What Makes nbdev Special?**
+
+The core idea of `nbdev` is **literate programming** taken seriously for modern development. You write your code, your tests, and your documentation *all within Jupyter Notebooks*. Then, `nbdev` intelligently handles the rest:
+
+1.  **Code Export:** It automatically exports clean, Python modules (`.py` files) from your notebooks.
+2.  **Testing:** You write tests directly in notebook cells, often right after the code they test. `nbdev` can run these tests easily.
+3.  **Documentation Generation:** It converts your notebooks (including your prose, code, outputs, and images) into beautiful, searchable documentation websites using Quarto.
+4.  **Publishing:** It simplifies packaging your project for PyPI.
+5.  **CI/CD Integration:** It sets up GitHub Actions workflows to automatically test your code, build your docs, and check for sync issues between notebooks and modules on every push.
+
+**Reducing the Friction**
+
+What truly impressed me was how *seamless* this felt. Tasks that normally require switching contexts, running multiple commands, and managing different configurations are streamlined into a few simple `nbdev` commands executed right from the terminal.
+
+Need to make sure your notebooks and library code are in sync? `nbdev_prepare`. Want to run all your tests? `nbdev_test`. Ready to build your documentation? `nbdev_docs`. It handles the tedious plumbing, letting you focus on the logic and explanation.
+
+This isn't just about saving time; it's about reducing the mental friction that discourages good practices. How often have you skipped writing a test or updating documentation because it felt like too much extra work? `nbdev` makes these essential tasks feel like a natural part of the development flow, not an afterthought.
+
+**A More Joyful Way to Build**
+
+For me, the result was a feeling of liberation. I could focus on experimenting with code in a notebook, writing clear explanations alongside it, and adding tests organically. Knowing that `nbdev` would handle the conversion to a proper Python library, generate the docs, and set up the CI pipeline allowed me to stay focused on the *problem* I was trying to solve.
+
+It truly felt like it brought some of the joy back into the process, removing unnecessary complexity and letting the power of notebooks shine not just for exploration, but for building robust software.
+
+I've only scratched the surface, but my initial experience has been incredibly positive. I plan to use `nbdev` for future projects, especially those involving data science, research, or anywhere literate programming makes sense.
+
+Huge thanks to Jeremy Howard and the entire fast.ai team for creating and sharing `nbdev`. It’s a fantastic tool that genuinely improves the developer experience and makes building software delightful again. If you haven't already, I highly recommend giving it a try!
+
+</div>
